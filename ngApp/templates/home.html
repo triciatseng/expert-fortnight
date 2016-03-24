@@ -1,4 +1,24 @@
-<div class="container">
-  <h1>Home Page</h1>
-  
+<div class="container" ng-init="datePosted">
+  <h1>Read All About It</h1>
+  <br />
+  <div class="container" ng-repeat="c in vm.blogs">
+    <br />
+    <br />
+
+    <strong><h4>{{c.title}}</h4></strong>
+    <p><em>Date Posted:</em>&nbsp;&nbsp;{{c.datePosted | date:'longDate'}}</p>
+    <div class="col-md-3">
+      <img ng-src={{c.imageURL}} height="130" width="205" />
+    </div>
+    <div class="col-md-8">
+      <p>{{c.body}}
+      </p>
+    </div>
+    <div class="col-md-1">
+
+      <p>TAGS</p>
+      {{c.tags}}
+    </div>
+  </div>
+
 </div>
