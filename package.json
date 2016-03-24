@@ -4,7 +4,7 @@
   "description": "A MEAN stack application.",
   "scripts": {
     "start": "node ./bin/www",
-    "devStart": "nodemon ./bin/www"
+    "devstart": "nodemon ./bin/www"
   },
   "license": "MIT",
   "dependencies": {
