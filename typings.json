@@ -1,0 +1,22 @@
+{
+  "name": "mongoose",
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160317120654",
+    "angular-resource": "registry:dt/angular-resource#1.5.0+20160316171810",
+    "angular-ui-bootstrap": "registry:dt/angular-ui-bootstrap#0.13.3+20160317120654",
+    "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160317120654",
+    "body-parser": "registry:dt/body-parser#0.0.0+20160317120654",
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160316155526",
+    "cookie-parser": "registry:dt/cookie-parser#1.3.4+20160316155526",
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160317120654",
+    "jquery": "registry:dt/jquery#1.10.0+20160316155526",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "morgan": "registry:dt/morgan#1.2.2+20160317120654",
+    "node": "registry:dt/node#4.0.0+20160317120654",
+    "serve-favicon": "registry:dt/serve-favicon#0.0.0+20160316155526",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160317120654"
+  }
+}

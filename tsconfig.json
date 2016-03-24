@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "inlineSourceMap": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**",
+    "!typings/main/**",
+    "!typings/main.d.ts"
+  ],
+  "exclude": [
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "compileOnSave": true,
+  "buildOnSave": false,
+  "files": [
+    "ngApp/js/app.ts",
+    "ngApp/js/controllers.ts",
+    "ngApp/js/services.ts",
+    "server.ts",
+    "typings/browser.d.ts",
+    "typings/browser/ambient/angular-resource/index.d.ts",
+    "typings/browser/ambient/angular-ui-bootstrap/index.d.ts",
+    "typings/browser/ambient/angular-ui-router/index.d.ts",
+    "typings/browser/ambient/angular/index.d.ts",
+    "typings/browser/ambient/body-parser/index.d.ts",
+    "typings/browser/ambient/bootstrap/index.d.ts",
+    "typings/browser/ambient/cookie-parser/index.d.ts",
+    "typings/browser/ambient/express-serve-static-core/index.d.ts",
+    "typings/browser/ambient/express/index.d.ts",
+    "typings/browser/ambient/jquery/index.d.ts",
+    "typings/browser/ambient/mime/index.d.ts",
+    "typings/browser/ambient/morgan/index.d.ts",
+    "typings/browser/ambient/node/index.d.ts",
+    "typings/browser/ambient/serve-favicon/index.d.ts",
+    "typings/browser/ambient/serve-static/index.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}

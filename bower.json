@@ -1,0 +1,24 @@
+{
+  "name": "mongoose",
+  "description": "A MEAN stack application.",
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-resource": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "angular-bootstrap": "^1.2.1",
+    "angular-animate": "^1.5.0",
+    "angular-touch": "^1.5.0",
+    "animate.css": "^3.5.1"
+  }
+}
