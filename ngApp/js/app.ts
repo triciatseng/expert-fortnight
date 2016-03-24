@@ -11,8 +11,13 @@ namespace app {
       templateUrl: '/templates/home.html',
       controller: app.Controllers.HomeController,
       controllerAs: 'vm'
+    }).state('Create', {
+      url: '/create',
+      templateUrl: '/templates/create.html',
+      controller: 'BlogCreateController',
+      controllerAs: 'vm'
     });
-    
+
     $urlRouterProvider.otherwise('/');
     $locationProvider.html5Mode(true);
   });

@@ -28,6 +28,8 @@
   "compileOnSave": true,
   "buildOnSave": false,
   "files": [
+    "interfaces/IBlog.ts",
+    "models/Blog.ts",
     "ngApp/js/app.ts",
     "ngApp/js/controllers.ts",
     "ngApp/js/services.ts",
@@ -44,6 +46,7 @@
     "typings/browser/ambient/express/index.d.ts",
     "typings/browser/ambient/jquery/index.d.ts",
     "typings/browser/ambient/mime/index.d.ts",
+    "typings/browser/ambient/mongoose/index.d.ts",
     "typings/browser/ambient/morgan/index.d.ts",
     "typings/browser/ambient/node/index.d.ts",
     "typings/browser/ambient/serve-favicon/index.d.ts",

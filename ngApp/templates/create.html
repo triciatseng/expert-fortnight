@@ -1,0 +1,29 @@
+<div class="container">
+  <h1>Create an Entry</h1>
+  <form ng-submit="vm.create()" class="container well">
+    <div>
+      <label>Title: </label>
+      <br />
+      <input type="text" ng-model="vm.blog.title" class="form-control" / />
+    </div>
+    <hr />
+    <div>
+      <label>Body</label>
+      <textarea name="body" class="form-control" ng-model="vm.blog.body" rows="10"></textarea>
+    </div>
+    <hr />
+    <div>
+      <label>Tags</label>
+      <input type="text" ng-model="vm.blog.tags" class="form-control" / />
+    </div>
+    <hr />
+    <div>
+      <label>Image URL</label>
+      <input type="text" ng-model="vm.blog.imageURL" class="form-control" / />
+    </div>
+    <hr />
+    <div style="text-align:center;">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>

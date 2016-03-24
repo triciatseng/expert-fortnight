@@ -14,6 +14,7 @@
     "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160317120654",
     "jquery": "registry:dt/jquery#1.10.0+20160316155526",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mongoose": "registry:dt/mongoose#3.8.5+20160316155526",
     "morgan": "registry:dt/morgan#1.2.2+20160317120654",
     "node": "registry:dt/node#4.0.0+20160317120654",
     "serve-favicon": "registry:dt/serve-favicon#0.0.0+20160316155526",
